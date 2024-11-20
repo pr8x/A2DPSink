@@ -8,7 +8,7 @@ class Program
 {
     public class Options
     {
-        [Option('d', "device", Required = true, HelpText = "Name of the Bluetooth A2DP sink device to connect to.")]
+        [Option('d', "device", Required = true, HelpText = "Name of the Bluetooth device to connect to.")]
         public required string DeviceName { get; set; }
     }
 
