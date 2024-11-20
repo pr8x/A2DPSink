@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "A2DPSink": {
+      "commandName": "Project",
+      "commandLineArgs": "--device 0xFF\r\n"
+    }
+  }
+}
